@@ -71,7 +71,7 @@ pip install -e .
 #### 4. Запуск с Docker 🐳
 ```bash
 Copy
-docker-compose up --build
+docker compose up --build
 ```
 ## 💻 Использование
 #### Локальный запуск сервера
@@ -79,7 +79,7 @@ docker-compose up --build
 Copy
 python manage.py runserver
 ```
-### Сервер будет доступен по адресу: http://localhost:8000
+### Сервер будет доступен по адресу: http://127.0.0.1:8000
 #### Запуск тестов
 ```bash
 Copy
@@ -98,7 +98,6 @@ python main.py --help
 | `DEBUG` | Режим отладки | `False` |
 | `SECRET_KEY` | Секретный ключ Django | — |
 | `DATABASE_URL` | URL подключения к БД | `sqlite:///db.sqlite3` |
-| `REDIS_URL` | URL Redis для кэша | — |
 
 Распространяется под лицензией MIT. См. LICENSE для подробностей.
 <div align="center">
