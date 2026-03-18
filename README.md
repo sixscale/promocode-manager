@@ -1,4 +1,4 @@
-# 🚀 Jet Land PromoCode Manager
+# 🚀 PromoCode Manager
 
 <div align="center">
 
@@ -8,7 +8,7 @@
 [![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)](https://docs.pytest.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
-**Управление промокодами для системы Jet Land**
+**Управление промокодами**
 
 [Установка](#-установка) • [Использование](#-использование) • [API](#-api) 
 
@@ -18,7 +18,7 @@
 
 ## 📋 Описание
 
-**Jet Land PromoCode Manager** — это тестовое задание для компании Jet Land.
+**PromoCode Manager** — это система управления промокодами при создании заказа.
 
 ### ✨ Основные возможности
 
@@ -47,8 +47,8 @@
 #### 1. Клонирование репозитория
 
 ```bash
-git clone https://github.com/sixscale/test-jet-land-promocode.git
-cd test-jet-land-promocode
+git clone https://github.com/sixscale/promocode-manager.git
+cd promocode-manager
 ```
 #### 2. Настройка окружения
 ```bash
@@ -102,6 +102,5 @@ python main.py --help
 Распространяется под лицензией MIT. См. LICENSE для подробностей.
 <div align="center">
 ⭐ Star this repo if you find it helpful!
-Made with ❤️ for Jet Land
 </div>
 ```
